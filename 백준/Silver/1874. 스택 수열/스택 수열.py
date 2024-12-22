@@ -1,5 +1,6 @@
 #백준 1874 / 스택 수열
 import sys
+#python으로 제출하면 시간초과, pypy3로 제출하면 시간 정답 처리됨..
 
 
 def input():
