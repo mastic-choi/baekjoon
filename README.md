@@ -6,6 +6,7 @@
 <br>백준 프로필 : https://www.acmicpc.net/user/mastic
 <br>solved.ac : https://solved.ac/profile/mastic
 <br><br>
-
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=mastic)](https://solved.ac/profile/mastic)
 ***
 This is a auto push repository for Baekjoon Online Judge created with BaekjoonHub.
