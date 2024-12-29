@@ -1,23 +1,27 @@
 import sys
 
 def dfs(idx) :
-    global visited
-    visited[idx] = True
-    print(idx, end = ' ')
-    for next in range(1, N+1) :
-        if not visited[next] and graph[idx][next]:
-            dfs(next)
+  global visited
+  visited[idx] = True
+  print(idx, end = ' ')
+  for i in range(1, N+1):
+    if not visited[i] and graph[idx][i]:
+      dfs(i)
+  
 
 def bfs():
-    global q, visited
-    while q:
-        cur = q.pop(0)
-        visited[cur] = True
-        print(cur, end = ' ')
-        for next in range(1, N + 1) :
-            if not visited[next] and graph[cur][next]:
-                visited[next] = True
-                q.append(next)
+  global q, visited
+  while q:
+    cur = q.pop(0)
+    visited[cur] = True
+    print(cur, end = ' ')
+    for i in range(1, N+1):
+      if not visited[i] and graph[cur][i]:
+        visited[i] = True
+        q.append(i)
+  
+  
+    
 
 # 0. 입력 및 초기화
 input = sys.stdin.readline
