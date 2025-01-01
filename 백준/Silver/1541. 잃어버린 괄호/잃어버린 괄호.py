@@ -1,4 +1,4 @@
-#백준 1541번 / 잃어버린 괄호호
+#백준 1541번 / 잃어버린 괄호
 import sys
 
 input = sys.stdin.readline
